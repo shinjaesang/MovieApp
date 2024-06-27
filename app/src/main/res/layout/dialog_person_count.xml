@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/adults_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="성인" />
+
+    <Spinner
+        android:id="@+id/adults_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/children_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="아동" />
+
+    <Spinner
+        android:id="@+id/children_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/disabled_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="장애인" />
+
+    <Spinner
+        android:id="@+id/disabled_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
